@@ -1,0 +1,2 @@
+# Food-Delivery-Business-Intelligence-Dashboard-Revenue-Operations-Customer-Analytics-Power-BI-
+Developed an end-to-end Business Intelligence solution using Power BI and SQL to analyze revenue performance, customer behavior (RFM segmentation), delivery operations, and growth opportunities for a multi-city food delivery platform. Generated actionable insights and strategic recommendations to support data-driven decision-making.
