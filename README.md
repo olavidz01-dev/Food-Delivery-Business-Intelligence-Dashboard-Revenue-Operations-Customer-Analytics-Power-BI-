@@ -46,9 +46,6 @@ The analytics solution provides Swoop with:
 
 ---
 
----
-
-
 ## Data Dictionary and Modelling
 1. **Users Table** - Platform user accounts
 - user_id
@@ -158,16 +155,21 @@ The analytics solution provides Swoop with:
 ## Approach & Methodology
 This project was developed entirely using **PostgreSQL and Microsoft Power BI**, covering the full analytics workflow — from data cleaning and transformation to modeling, analysis, and visualization. The objective was to analyze Swoop’s food delivery performance, focusing on revenue trends, customer segmentation and retention, and operational efficiency.
 
-### 1️⃣ Data Cleaning & Transformation (PostgreSQL)
-### 2️⃣ Used SQL queries to answer business questions and created calculated measures and columns
-### 3️⃣ Interactive Visualization & Dashboard Design (Power BI)
-- Used card visuals, bar & column charts, pie charts, line graphs, and tables for visualization
-### 4️⃣ Insights Generation & Business Alignment (Claude & ChatGPT)
-- Translated findings into **actionable business recommendations**
+1️⃣ Data Cleaning & Transformation **(PostgreSQL)**
+
+2️⃣ Used SQL queries to answer business questions and created calculated measures and columns
+
+3️⃣ Interactive Visualization & Dashboard Design **(Power BI)**
+- Used card visuals, bar & column charts, pie charts, line graphs, and tables for visualization.
+
+4️⃣ Insights Generation & Business Alignment **(Claude & ChatGPT)**
+- Translated findings into actionable business recommendations.
 
 ---
 
 🔗 [View the Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDVjMDU4ZWEtNGZhZS00NGFkLWIwZGQtYzk3ODQ3Njk1YzY4IiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9&pageName=f8e5b0818bd549040e45)
+
+---
 
 ## 🔢 Revenue & Order Insights Report
 
@@ -176,7 +178,7 @@ This project was developed entirely using **PostgreSQL and Microsoft Power BI**,
 </p>
 
 
-### Top KPIs (Key Performance Indicators)
+### 1. 🎯 Top KPIs (Key Performance Indicators)
 1. Total Orders: 28,428
 2. Total Delivery: 26,439
 3. Total Users: 2,500
@@ -185,30 +187,164 @@ This project was developed entirely using **PostgreSQL and Microsoft Power BI**,
 6.  Total Delivery Cost: $71,593
 
 **Key Insights**
+
 Delivery costs represent a relatively small portion of total revenue, suggesting:
-- Efficient logistics operations 
-- Good cost management 
-- Healthy operational margins
+1. Efficient logistics operations 
+2. Good cost management 
+3. Healthy operational margins
+
+### 2. 📊 Monthly Revenue Performance
+Revenue showed fluctuating but upward growth throughout the year.
+- February: Lowest observed point at approximately $153K 
+- July: Mid-year peak at $244K 
+- October: Revenue dip to $184K 
+- December: Highest revenue month at $296K
+
+**Key Insights**
+
+The sharp increase in November–December suggests:
+1. Seasonal demand spikes
+2. Successful promotional campaigns
+3. Increased holiday spending behavior
+4. Higher repeat customer activity
+
+**Recommendation**
+1. Replicate Q4 marketing strategies earlier in the year
+2. Launch seasonal campaigns during slower months (Q1 and Q3)
+3. Prepare operational capacity for peak holiday demand 
+<p align="center">
+  <img src="assets/lineMom.png" width="1000" />
+</p>
 
 
-### 📊 Monthly Revenue Trend Analysis & Insights
-**1. By Location**
-- France has 50% (5,014) of the total customers.
-- Germany and Spain are almost equally represented (~25% each).
+## 3. 🍽️ Top 5 Meals by Revenue
 
-**2. By Age Group & Gender**
-- Largest age segments:
-   - 35–44: 3,981 customers
-   - 25–34: 3,222 customers
-- Younger segment (<25) is the smallest: only 457 customers
-- Gender distribution is balanced across all age groups
+Premium meals dominate revenue generation
 
-**3. By Credit Score Band**
-- Majority of customers have fair to poor credit:
-   - Fair (580–669): 3,331 customers
-   - Poor (<580): 2,362 customers
-   - Good (670–739): 2,428 customers
-- Only 655 customers have Excellent (800+) scores - just 6.5% of the base
+Customers are showing a strong preference for:
+1. Higher-value menu items
+2. Premium dining experiences
+3. Protein-based meals
+
+Recommendation
+1. Promote top-performing meals in campaigns
+2. Introduce premium meal bundles
+3. Use Grilled Salmon as a featured marketing product
+4. Expand premium menu offerings
+<p align="center">
+  <img src="assets/top5meal.png" width="1000" />
+</p>
+
+
+## 4. 💰 Revenue by Meal Category
+Dinner contributes the highest revenue by a large margin. This suggestive:
+1. Larger basket sizes during dinner
+2. Family/group ordering behavior
+3. Peak evening demand
+
+Breakfast generates the lowest revenue, indicating:
+1. Untapped market opportunity
+2. Lower morning engagement
+3. Potential lack of breakfast promotions
+
+Recommendation
+1. Increase breakfast-focused campaigns
+2. Offer early-morning delivery incentives
+3. Introduce combo meal pricing for breakfast and lunch
+4. Expand dinner upselling strategies
+<p align="center">
+  <img src="assets/mealcat.png" width="1000" />
+</p>
+
+
+## 5. 💰 Revenue by Order Type
+Bulk orders generate nearly 59% of total revenue.
+
+This indicates:
+1. Strong corporate/group ordering behavior
+2. High-value transactions
+3. Efficient revenue concentration
+
+Recommendation
+1. Develop dedicated B2B partnerships
+2. Create loyalty programs for corporate clients
+3. Offer subscription or recurring bulk delivery plans
+4. Build specialized enterprise ordering solutions
+<p align="center">
+  <img src="assets/revtype.png" width="1000" />
+</p>
+
+
+## 6. 📊📱Device Usage Analysis
+**Mobile dominates customer engagement** (iOS 44.43% & Android 40.38%)
+
+This may indicate:
+- Better app experience and stronger retention on Apple and Android ecosystems.
+
+**Web usage remains low**
+Indicating:
+- Mobile-first customer preference 
+- Limited web platform adoption
+
+**Recommendation**
+1. Prioritize mobile app optimization
+2. Invest in push notifications and app retention
+3. Improve Android-to-iOS conversion gap
+4. Enhance web UX for workplace and desktop ordering
+<p align="center">
+  <img src="assets/revtype.png" width="1000" />
+</p>
+
+
+---
+
+
+## 🔢 Delivery Efficiency & Customer Insights Report
+<p align="center">
+  <img src="assets/pg2.png" width="1000" />
+</p>
+
+
+### 1. 🎯 Top KPIs (Key Performance Indicators)
+1. Total Orders: 28,428
+2. Total Delivery: 26,439
+3. Total Users: 2,500
+4. Avg. Spend per User: $100.36
+5.  Total Revenue: $2,373,314
+6.  Total Delivery Cost: $71,593
+
+**Key Insights**
+
+Delivery costs represent a relatively small portion of total revenue, suggesting:
+1. Efficient logistics operations 
+2. Good cost management 
+3. Healthy operational margins
+
+### 2. 📊 Monthly Revenue Performance
+Revenue showed fluctuating but upward growth throughout the year.
+- February: Lowest observed point at approximately $153K 
+- July: Mid-year peak at $244K 
+- October: Revenue dip to $184K 
+- December: Highest revenue month at $296K
+
+**Key Insights**
+
+The sharp increase in November–December suggests:
+1. Seasonal demand spikes
+2. Successful promotional campaigns
+3. Increased holiday spending behavior
+4. Higher repeat customer activity
+
+**Recommendation**
+1. Replicate Q4 marketing strategies earlier in the year
+2. Launch seasonal campaigns during slower months (Q1 and Q3)
+3. Prepare operational capacity for peak holiday demand 
+<p align="center">
+  <img src="assets/lineMom.png" width="1000" />
+</p>
+
+
+
 
 **4. By Number of Products**
 - Over 50% have only 1 product
