@@ -403,62 +403,39 @@ Use RFM scoring proactively to:
 ## 🎯 Strategic Recommendations
 
 **1. Launch a customer retention program for VIP, Loyal, and at-risk customers - highest priority**
-
-i. Create VIP tier rewards (free delivery, exclusive offers, priority support)
-
-ii. Send win-back campaigns to churned users within 14 days
-
-iii. Trigger reactivation discounts for customers inactive beyond 90 days
-
-iv. Build automated personalized offers based on order history
+- Create VIP tier rewards (free delivery, exclusive offers, priority support)
+- Send win-back campaigns to churned users within 14 days
+- Trigger reactivation discounts for customers inactive beyond 90 days
+- Build automated personalized offers based on order history
 
 **2. Scale bulk ordering segment**
-
-i. Create dedicated B2B ordering plans
-
-ii. Target offices, institutions, and events
-
-iii. Assign account management for large customers
-
-iv. Offer scheduled recurring meal deliveries
+- Create dedicated B2B ordering plans
+- Target offices, institutions, and events
+- Assign account management for large customers
+- Offer scheduled recurring meal deliveries
 
 **3. Expand electric scooter operations aggressively**
-
-i. Increase scooter fleet in the highest-performing city 
-
-ii. Recruit scooter-focused couriers 
-
-iii. Introduce charging partnerships 
-
-iv. Prioritize scooters during peak demand routing 
+- Increase scooter fleet in the highest-performing city
+- Recruit scooter-focused couriers
+- Introduce charging partnerships
+- Prioritize scooters during peak demand routing 
 
 **4. Replicate Q4 growth strategy throughout the year**
-
-i. Analyze what drove the November–December spikes
-
-ii. Repeat campaigns in weaker months (Feb, Sept, Oct)
-
-iii. Build quarterly seasonal promotions
+- Analyze what drove the November–December spikes
+- Repeat campaigns in weaker months (Feb, Sept, Oct)
+- Build quarterly seasonal promotions
 
 **5. Improve breakfast and underperforming categories**
-
-i. Introduce breakfast bundles
-
-ii. Early delivery discounts
-
-iii. Workplace breakfast promotions
-
-iv. Time-based push notifications
+- Introduce breakfast bundles
+- Early delivery discounts
+- Workplace breakfast promotions
+- Time-based push notifications
 
 **6. Strengthen referral acquisition immediately**
-
-i. Launch refer-a-friend credits
-
-ii. Incentivize first referral order
-
-iii. Reward repeat referrals
-
-iv. Add referral prompts post-delivery
+- Launch refer-a-friend credits
+- Incentivize the first referral order
+- Reward repeat referrals
+- Add referral prompts post-delivery
 
 
 ---
