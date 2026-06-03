@@ -318,6 +318,9 @@ Create:
 <p align="center">
   <img src="assets/top 10%.png" width="1000" />
 </p>
+<p align="center">
+  <img src="assets/top10courier.png" width="1000" />
+</p>
 
 ### 6. 🏆🛵Top 10 Active Couriers by Revenue
 - Most top-performing couriers use electric scooters, reinforcing operational efficiency advantages
