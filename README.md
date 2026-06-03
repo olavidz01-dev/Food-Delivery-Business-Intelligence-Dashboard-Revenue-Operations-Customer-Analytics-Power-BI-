@@ -466,7 +466,6 @@ v. r_score <= 2 then 'Churned ❌'
 
 vi. others 'Regular 🙂'
 
-
 **Recommendations for Churn Prevention**
 
 **1. Re-Engagement Campaigns**
@@ -492,7 +491,7 @@ Use RFM scoring proactively to:
 
 ## 🎯 Strategic Recommendations
 
-**A . Launch a customer retention program for VIP, Loyal, and at-risk customers - highest priority**
+**A. Launch a customer retention program for VIP, Loyal, and at-risk customers - highest priority**
 
 i. Create VIP tier rewards (free delivery, exclusive offers, priority support)
 
@@ -512,7 +511,7 @@ iii. Assign account management for large customers
 
 iv. Offer scheduled recurring meal deliveries
 
-**3. Expand electric scooter operations aggressively**
+**C. Expand electric scooter operations aggressively**
 
 i. Increase scooter fleet in the highest-performing city 
 
@@ -522,7 +521,7 @@ iii. Introduce charging partnerships
 
 iv. Prioritize scooters during peak demand routing 
 
-**4. Replicate Q4 growth strategy throughout the year**
+**D. Replicate Q4 growth strategy throughout the year**
 
 i. Analyze what drove the November–December spikes
 
@@ -530,7 +529,7 @@ ii. Repeat campaigns in weaker months (Feb, Sept, Oct)
 
 iii. Build quarterly seasonal promotions
 
-**5. Improve breakfast and underperforming categories**
+**E. Improve breakfast and underperforming categories**
 
 i. Introduce breakfast bundles
 
@@ -540,20 +539,22 @@ iii. Workplace breakfast promotions
 
 iv. Time-based push notifications
 
-**6. Strengthen referral acquisition immediately**
+**F. Strengthen referral acquisition immediately**
 
-  i. Launch refer-a-friend credits
+i. Launch refer-a-friend credits
 
-  ii. Incentivize first referral order
+ii. Incentivize first referral order
 
-  iii. Reward repeat referrals
+iii. Reward repeat referrals
 
-  iv. Add referral prompts post-delivery
+iv. Add referral prompts post-delivery
 
 
 ---
 
+
 ## 90-Day Implementation Plan
+
 **Month 1**
 1. Launch VIP retention campaigns
 2. Start churn reactivation
@@ -573,10 +574,8 @@ iv. Time-based push notifications
 4. Track ROI by customer segment
 
 
-
-
-
 ---
+
 
 ## Conclusion
 
@@ -595,22 +594,6 @@ Overall, the project highlights that Swoop Food Delivery Service has;
 The findings suggest that **immediate focus on customer retention, bulk order expansion, and operational optimization** will help **improve profitability and long-term scalability**.
 
 This project demonstrates how data analytics can transform business data into actionable insights, helping stakeholders identify opportunities, address risks, and make informed decisions to drive business growth.
-
-
---- 
-
-
-### Next Steps
-
-1. **Deep dive into churn drivers:** Survey churned customers, analyze product usage data.
-
-2. **Build retention models:** Use machine learning (e.g., logistic regression, random forest) to predict churn risk.
-
-3. **Refine segmentation:** Include behavioral data (transaction volume, complaints, digital activity).
-
-4. **Test retention offers:** A/B test targeted campaigns for high-value and medium-risk customers.
-
-5. **Monitor KPIs monthly:** Add trend charts for churn rate, NPS, and retention by geography and age.
 
 
 ---
