@@ -47,105 +47,17 @@ The analytics solution provides Swoop with:
 ---
 
 ## Data Dictionary and Modelling
-1. **Users Table** - Platform user accounts
-- user_id
-- first_name
-- last_name
-- email
-- phone_number
-- city
-- signup_date
-- acquisition_channel
-- device_type
-- is_active
-2. **restaurants** - Partner restaurant profiles
-- restaurant_id
-- restaurant_name
-- cuisine_type
-- city
-- region
-- address
-- avg_prep_time
-- commission_rate
-- is_active
-- joined_date
-3. **meals** - Menu items per restaurant
-- meal_id
-- restaurant_id
-- meal_name
-- category
-- price
-- cost_to_make
-- is_bulk_eligible
-- is_available
-4. **orders** - Top-level order transactions
-- order_id
-- user_id
-- promo_id
-- order_date
-- order_type
-- order_status
-- payment_methgod
-- delivery_fee
-- service_fee
-- discount_amount
-- total_amount
-5. **order_items** - Line items within each order
-- order_item_id
-- order_id
-- meal_id
-- quantity
-- unit_price
-- subtotal
-6. **deliveries** - Delivery execution per order
-- delivery_id
-- oder_id
-- courier_id
-- delivery_status
-- pickup_time
-- dropoff_time
-- delivery_duration
-- delivery_address
-- city
-- region
-- delivery_cost
-- customer_rating
+The dataset consists of 10 tables, each containing multiple columns:
+1. **Users** - Platform user accounts
+2. **Restaurants** - Partner restaurant profiles
+3. **Meals** - Menu items per restaurant
+4. **Orders** - Top-level order transactions
+5. **Order_items** - Line items within each order
+6. **Deliveries** - Delivery execution per order
 7. **Couriers**- Delivery fleet members
-- courier_id
-- first_name
-- last_name
-- employment_type
-- vehicle_type
-- rating
-- city
-- start_date
-- is_active
 8. **Promotions** - Discount campaigns
-- promo_id
-- promo_code
-- discount_type
-- discount_value
-- min_order_value
-- start_date
-- end-date
-- is_active
 9. **Refunds** - Order refund records
-- refund_id
-- order_id
-- refund_date
-- refuind_amount
-- refund_reason
-- refund_status
 10. **Sessions** - User app sessions
-- session_id
-- user_id
-- order_id
-- session_start
-- session_end
-- session_duration
-- device_type
-- marleting_channel
-- led_to_order
 <p align="center">
   <img src="assets/ERD.png" width="1000" />
 </p>
@@ -153,7 +65,7 @@ The analytics solution provides Swoop with:
 ---
 
 ## Approach & Methodology
-This project was developed entirely using **PostgreSQL and Microsoft Power BI**, covering the full analytics workflow — from data cleaning and transformation to modeling, analysis, and visualization. The objective was to analyze Swoop’s food delivery performance, focusing on revenue trends, customer segmentation and retention, and operational efficiency.
+This project was developed entirely using **PostgreSQL and Microsoft Power BI**, covering the full analytics workflow, from data cleaning and transformation to modeling, analysis, and visualization. The objective was to analyze Swoop’s food delivery performance, focusing on revenue trends, customer segmentation and retention, and operational efficiency.
 
 1️⃣ Data Cleaning & Transformation **(PostgreSQL)**
 
@@ -179,12 +91,13 @@ This project was developed entirely using **PostgreSQL and Microsoft Power BI**,
 
 
 ### 1. 🎯 Top KPIs (Key Performance Indicators)
+
 1. Total Orders: 28,428
 2. Total Delivery: 26,439
 3. Total Users: 2,500
 4. Avg. Spend per User: $100.36
-5.  Total Revenue: $2,373,314
-6.  Total Delivery Cost: $71,593
+5. Total Revenue: $2,373,314
+6. Total Delivery Cost: $71,593
 
 **Key Insights**
 
@@ -197,7 +110,7 @@ Delivery costs represent a relatively small portion of total revenue, suggesting
 Revenue showed fluctuating but upward growth throughout the year.
 - February: Lowest observed point at approximately $153K 
 - July: Mid-year peak at $244K 
-- October: Revenue dip to $184K 
+- October: Revenue dips to $184K 
 - December: Highest revenue month at $296K
 
 **Key Insights**
@@ -209,6 +122,7 @@ The sharp increase in November–December suggests:
 4. Higher repeat customer activity
 
 **Recommendation**
+
 1. Replicate Q4 marketing strategies earlier in the year
 2. Launch seasonal campaigns during slower months (Q1 and Q3)
 3. Prepare operational capacity for peak holiday demand 
@@ -217,16 +131,13 @@ The sharp increase in November–December suggests:
 </p>
 
 
-## 3. 🍽️ Top 5 Meals by Revenue
-
-Premium meals dominate revenue generation
-
+### 3. 🍽️ Top 5 Meals by Revenue
 Customers are showing a strong preference for:
 1. Higher-value menu items
 2. Premium dining experiences
 3. Protein-based meals
 
-Recommendation
+**Recommendation**
 1. Promote top-performing meals in campaigns
 2. Introduce premium meal bundles
 3. Use Grilled Salmon as a featured marketing product
@@ -236,18 +147,18 @@ Recommendation
 </p>
 
 
-## 4. 💰 Revenue by Meal Category
-Dinner contributes the highest revenue by a large margin. This suggestive:
+### 4. 💰 Revenue by Meal Category
+**Dinner** contributes the highest revenue by a large margin. This suggestive:
 1. Larger basket sizes during dinner
 2. Family/group ordering behavior
 3. Peak evening demand
 
-Breakfast generates the lowest revenue, indicating:
+**Breakfast** generates the lowest revenue, indicating:
 1. Untapped market opportunity
 2. Lower morning engagement
 3. Potential lack of breakfast promotions
 
-Recommendation
+**Recommendation**
 1. Increase breakfast-focused campaigns
 2. Offer early-morning delivery incentives
 3. Introduce combo meal pricing for breakfast and lunch
@@ -257,7 +168,7 @@ Recommendation
 </p>
 
 
-## 5. 💰 Revenue by Order Type
+### 5. 💰 Revenue by Order Type
 Bulk orders generate nearly 59% of total revenue.
 
 This indicates:
@@ -265,7 +176,7 @@ This indicates:
 2. High-value transactions
 3. Efficient revenue concentration
 
-Recommendation
+**Recommendation**
 1. Develop dedicated B2B partnerships
 2. Create loyalty programs for corporate clients
 3. Offer subscription or recurring bulk delivery plans
@@ -275,10 +186,10 @@ Recommendation
 </p>
 
 
-## 6. 📊📱Device Usage Analysis
+### 6. 📊📱Device Usage Analysis
 **Mobile dominates customer engagement** (iOS 44.43% & Android 40.38%)
 
-This may indicate:
+This indicates:
 - Better app experience and stronger retention on Apple and Android ecosystems.
 
 **Web usage remains low**
@@ -299,13 +210,13 @@ Indicating:
 ---
 
 
-## 🔢 Delivery Efficiency & Customer Insights Report
+## 🛵⚡🚚Delivery Efficiency & Customer Insights Report
 <p align="center">
   <img src="assets/pggg2.png" width="1000" />
 </p>
 
 
-### 1. 🎯 Top KPIs (Key Performance Indicators)
+### 1. 🎯Top KPIs (Key Performance Indicators)
 An average delivery time of **26 minutes** positions SWOOP competitively within the food delivery industry, where speed directly impacts:
 - Customer satisfaction
 - Repeat purchases
@@ -318,7 +229,7 @@ An average delivery time of **26 minutes** positions SWOOP competitively within 
 3. Continue route optimization strategies
 
 
-### 2. 📊 Courier Delivery Performance by Vehicle Type
+### 2. ⚡🛵Courier Delivery Performance by Vehicle Type
 **Electric scooters** dominate delivery operations with 72%, suggestive of:
 - High urban delivery efficiency 
 - Lower fuel and maintenance costs 
@@ -339,14 +250,15 @@ An average delivery time of **26 minutes** positions SWOOP competitively within 
 </p>
 
 
-### 3. 📊Delivery Performance by City
-**Los Angeles** contributes the highest delivery activity and courier count, indicating:
+### 3. 📍🏙️Delivery Performance by City
+
+Los Angeles contributes the highest delivery activity and courier count, indicating:
 - Strong market penetration
 - Higher customer demand
 
-**New York**, despite having fewer couriers, maintains a strong delivery output.
+New York, despite having fewer couriers, maintains a strong delivery output.
 
-**San Francisco** demonstrates stable operational distribution between courier capacity and demand.
+San Francisco demonstrates a stable operational distribution between courier capacity and demand.
 
 **Recommendation**
 
@@ -387,7 +299,7 @@ An average delivery time of **26 minutes** positions SWOOP competitively within 
 </p>
 
 
-### 5. 📊Top 10% Customers by Revenue
+### 5. 👥✅Top 10% Customers by Revenue
 The top 10% of customers (248 customers) generated $827,565.88 in revenue, accounting for 8,405 orders and 47,143 items purchased.
 
 **Recommendation**
@@ -398,6 +310,7 @@ Create:
 - Personalized promotions
 - Subscription meal plans
 - Exclusive premium offers
+
 2. Risk Management
 - Avoid overdependence on a small customer segment by:
 - Expanding mid-tier customer engagement
@@ -406,7 +319,7 @@ Create:
   <img src="assets/top 10%.png" width="1000" />
 </p>
 
-### 6. Top Active Couriers by Revenue Generated
+### 6. 🏆🛵Top 10 Active Couriers by Revenue
 - Most top-performing couriers use electric scooters, reinforcing operational efficiency advantages
 - Some couriers maintain ratings below others despite strong delivery volume, suggesting:
   - Potential customer experience inconsistencies 
@@ -415,13 +328,11 @@ Create:
 **Recommendation** 
 
 **1. Courier Performance Optimization**
-
 - Introduce performance-based incentives 
 - Reward high customer ratings 
 - Provide training for low-rated couriers 
 
 **2. Workforce Planning**
-
 - Use top couriers as operational benchmarks
 - Replicate best-performing delivery patterns 
 
@@ -440,12 +351,12 @@ Track:
 ---
 
 
-## Customer RFM Segmentation Report
+## 👥🎯Customer RFM Segmentation Report
 
 **Customers are scored across:**
-- R Score
-- F Score
-- M Score
+- R(Recency) Score
+- F(Frequency) Score
+- M(Monetry) Score
 
 **Higher scores generally indicate:**
 - More active customers
@@ -491,7 +402,7 @@ Use RFM scoring proactively to:
 
 ## 🎯 Strategic Recommendations
 
-**A. Launch a customer retention program for VIP, Loyal, and at-risk customers - highest priority**
+**1. Launch a customer retention program for VIP, Loyal, and at-risk customers - highest priority**
 
 i. Create VIP tier rewards (free delivery, exclusive offers, priority support)
 
@@ -501,7 +412,7 @@ iii. Trigger reactivation discounts for customers inactive beyond 90 days
 
 iv. Build automated personalized offers based on order history
 
-**B. Scale bulk ordering segment**
+**2. Scale bulk ordering segment**
 
 i. Create dedicated B2B ordering plans
 
@@ -511,7 +422,7 @@ iii. Assign account management for large customers
 
 iv. Offer scheduled recurring meal deliveries
 
-**C. Expand electric scooter operations aggressively**
+**3. Expand electric scooter operations aggressively**
 
 i. Increase scooter fleet in the highest-performing city 
 
@@ -521,7 +432,7 @@ iii. Introduce charging partnerships
 
 iv. Prioritize scooters during peak demand routing 
 
-**D. Replicate Q4 growth strategy throughout the year**
+**4. Replicate Q4 growth strategy throughout the year**
 
 i. Analyze what drove the November–December spikes
 
@@ -529,7 +440,7 @@ ii. Repeat campaigns in weaker months (Feb, Sept, Oct)
 
 iii. Build quarterly seasonal promotions
 
-**E. Improve breakfast and underperforming categories**
+**5. Improve breakfast and underperforming categories**
 
 i. Introduce breakfast bundles
 
@@ -539,7 +450,7 @@ iii. Workplace breakfast promotions
 
 iv. Time-based push notifications
 
-**F. Strengthen referral acquisition immediately**
+**6. Strengthen referral acquisition immediately**
 
 i. Launch refer-a-friend credits
 
@@ -553,7 +464,7 @@ iv. Add referral prompts post-delivery
 ---
 
 
-## 90-Day Implementation Plan
+## 📅🎯90-Day Implementation Plan
 
 **Month 1**
 1. Launch VIP retention campaigns
