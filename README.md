@@ -301,213 +301,190 @@ Indicating:
 
 ## 🔢 Delivery Efficiency & Customer Insights Report
 <p align="center">
-  <img src="assets/pg2.png" width="1000" />
+  <img src="assets/pggg2.png" width="1000" />
 </p>
 
 
 ### 1. 🎯 Top KPIs (Key Performance Indicators)
-1. Total Orders: 28,428
-2. Total Delivery: 26,439
-3. Total Users: 2,500
-4. Avg. Spend per User: $100.36
-5.  Total Revenue: $2,373,314
-6.  Total Delivery Cost: $71,593
-
-**Key Insights**
-
-Delivery costs represent a relatively small portion of total revenue, suggesting:
-1. Efficient logistics operations 
-2. Good cost management 
-3. Healthy operational margins
-
-### 2. 📊 Monthly Revenue Performance
-Revenue showed fluctuating but upward growth throughout the year.
-- February: Lowest observed point at approximately $153K 
-- July: Mid-year peak at $244K 
-- October: Revenue dip to $184K 
-- December: Highest revenue month at $296K
-
-**Key Insights**
-
-The sharp increase in November–December suggests:
-1. Seasonal demand spikes
-2. Successful promotional campaigns
-3. Increased holiday spending behavior
-4. Higher repeat customer activity
+An average delivery time of **26 minutes** positions SWOOP competitively within the food delivery industry, where speed directly impacts:
+- Customer satisfaction
+- Repeat purchases
+- Courier productivity
+- Platform ratings
 
 **Recommendation**
-1. Replicate Q4 marketing strategies earlier in the year
-2. Launch seasonal campaigns during slower months (Q1 and Q3)
-3. Prepare operational capacity for peak holiday demand 
+1. Maintain delivery times below 30 minutes 
+2. Implement predictive dispatching during peak hours 
+3. Continue route optimization strategies
+
+
+### 2. 📊 Courier Delivery Performance by Vehicle Type
+**Electric scooters** dominate delivery operations with 72%, suggestive of:
+- High urban delivery efficiency 
+- Lower fuel and maintenance costs 
+- Faster navigation in dense city environments 
+- Strong sustainability positioning 
+
+**Cars** contributed the least delivery share, possibly due to:
+- Traffic congestion
+- Higher operating costs
+
+**Recommendation**
+1. Expand electric scooter fleet 
+2. Introduce charging partnerships or charging hubs 
+3. Optimize bicycle deployment for ultra-short delivery routes 
+4. Reserve car deliveries for bulk or long-distance orders 
 <p align="center">
-  <img src="assets/lineMom.png" width="1000" />
+  <img src="assets/courierVech.png" width="1000" />
 </p>
 
 
+### 3. 📊Delivery Performance by City
+**Los Angeles** contributes the highest delivery activity and courier count, indicating:
+- Strong market penetration
+- Higher customer demand
+
+**New York**, despite having fewer couriers, maintains a strong delivery output.
+
+**San Francisco** demonstrates stable operational distribution between courier capacity and demand.
+
+**Recommendation**
+
+**For Los Angeles**
+- Expand courier onboarding
+- Introduce zone-based dispatch optimization
+- Prepare for scaling during peak demand
+
+**For New York**
+- Replicate successful routing strategies in other cities
+
+**For San Francisco**
+- Increase customer acquisition efforts
+- Improve market penetration campaigns
+<p align="center">
+  <img src="assets/cour-city.png" width="1000" />
+</p>
 
 
-**4. By Number of Products**
-- Over 50% have only 1 product
-  - 5,084 (1 product)
-  - 4,590 (2 products)
-- Very few are using 3+ products
+### 4. 📊Customer Acquisition Channel
+**Organic traffic** contributes the highest active users, suggesting:
+- Strong brand visibility 
+- Positive customer experience 
+- Effective word-of-mouth exposure 
+- Good search and app discoverability 
 
-**5. By Balance Band**
-- High Balance (100k–150k): 3,830 customers
-- Low Balance (<50k): 3,692 customers
-- Medium (50k-100k): 1,509 customers
-- Very High Balance (150k+): 969 customers
-- Most balances are clustered at the extremes - either low or high, suggesting a bimodal distribution
+**Paid acquisition** contributes substantial user activity, showing:
+- Marketing campaigns are generating measurable traffic 
+- Paid channels are supporting growth and scalability
+
+**Recommendation**
+1. Expand referral incentives
+2. Invest more in SEO and app-store optimization
+3. Improve social engagement campaigns
+4. Track customer acquisition cost (CAC) by channel
+<p align="center">
+  <img src="assets/userchannel.png" width="1000" />
+</p>
 
 
-### ⚠️ Key Challenges Identified
-**1. Low Active Engagement**
-- With only 51.51% active customers, nearly half of the customer base is disengaged or dormant.
-  - This may contribute significantly to the 20.37% churn rate.
+### 5. 📊Top 10% Customers by Revenue
+The top 10% of customers (248 customers) generated $827,565.88 in revenue, accounting for 8,405 orders and 47,143 items purchased.
 
-**2. Low Cross-Sell Penetration**
-- Over 95% of customers have 1–2 products
-  - Suggests missed opportunities for upselling/cross-selling additional financial services (loans, credit cards, investments, etc.)
+**Recommendation**
+1. Retention Strategy
 
-**3. Weak Credit Quality**
-- With a median credit score of 652 and 5,693 customers in Fair or Poor segments, the bank may be carrying higher credit risk.
-  - Could impact loan default rates and profitability if not managed
+Create:
+- VIP loyalty tiers
+- Personalized promotions
+- Subscription meal plans
+- Exclusive premium offers
+2. Risk Management
+- Avoid overdependence on a small customer segment by:
+- Expanding mid-tier customer engagement
+- Increasing repeat purchases among average users
+<p align="center">
+  <img src="assets/top 10%.png" width="1000" />
+</p>
+
+### 6. Top Active Couriers by Revenue Generated
+- Most top-performing couriers use electric scooters, reinforcing operational efficiency advantages
+- Some couriers maintain ratings below others despite strong delivery volume, suggesting:
+  - Potential customer experience inconsistencies 
+  - Workload-related performance fatigue
+
+**Recommendation** 
+
+**1. Courier Performance Optimization**
+
+- Introduce performance-based incentives 
+- Reward high customer ratings 
+- Provide training for low-rated couriers 
+
+**2. Workforce Planning**
+
+- Use top couriers as operational benchmarks
+- Replicate best-performing delivery patterns 
+
+**3. Service Quality Improvement**
+
+Track:
+- Delivery delays
+- Customer complaints
+- Courier idle time
+- Rating trends
+<p align="center">
+  <img src="assets/top 10%.png" width="1000" />
+</p>
 
 
 ---
 
 
-## 📊 Churn & Risk Overview
+## Customer RFM Segmentation Report
 
+**Customers are scored across:**
+- R Score
+- F Score
+- M Score
+
+**Higher scores generally indicate:**
+- More active customers
+- Higher spending behavior
+- Greater loyalty potential
+
+**Scoring System**
+
+i. (r_score + f_score + m_score) >= 13 then 'VIP 👑'
+
+ii. (r_score + f_score + m_score) >= 10 then 'Loyal 👍'
+
+iii. (r_score >= 4 and f_score <= 2 then 'New 🆕'
+
+iv. r_score <= 2 and f_score >= 3 then 'At Risk ⚠️'
+
+v. r_score <= 2 then 'Churned ❌'
+
+vi. others 'Regular 🙂'
+
+
+**Recommendations for Churn Prevention**
+
+**1. Re-Engagement Campaigns**
+
+Implement:
+- “We miss you” promotions 
+- Personalized discounts 
+- Free delivery offers 
+- Retargeting advertisements 
+
+**2. Predictive Retention**
+
+Use RFM scoring proactively to:
+- Trigger automated retention campaigns 
+- Monitor declining frequency trends
 <p align="right">
-  <img src="assets/churn1.png" width="1000" />
+  <img src="assets/pg3.png" width="1000" />
 </p>
-
-### Top KPIs (Key Performance Indicators)
-- Churn Rate: 20.37%
-- No. of Customers churned: 2.037
-- Churned Balance: $186M
-- High-Risk Customers: 174
-- High-Value Churn Rate: 24.98%
-  - Key Risk: Nearly 25% of high-value customers churned, representing a significant financial loss and a priority focus area.
-
-### 🌍 Churn by Location
-
-| Country         | Churn Rate   | Churned Balance    | Key Insight                               |
-|-----------------|--------------|--------------------|-------------------------------------------|
-| **Germany**     |     32%      |       $97.9M       | Highest churn rate and balance loss       |
-| **Spain**       |     17%      |       $29.9M       | Moderate churn, lower financial exposure  |
-| **France**      |     16%      |       $57.7M       | Lower churn rate, but large value impact  |
-
-⚠ Germany is a high-risk churn zone, both in terms of volume and financial value.
-
-### Churn by Customer Type
-**1. Active vs. Inactive**
-- Inactive customers account for 65% of churn, which is only 48% of the base.
-- Active customer churn rate = 35%, indicating even active users aren't fully engaged.
-
-**Actionable Insight:** Inactivity is a major churn predictor. There is a need to consider stronger lifecycle management.
-
-<p align="right">
-  <img src="assets/risk2.png" width="1000" />
-</p>
-
-### Churn by Product Usage
-| No. of Products    | Churn Rate    | No. of Churned     |
-|--------------------|-------------- |--------------------|
-|   1                |     28%       |        1,409       | 
-|   2                |     8%        |        348         |
-|   3                |     83%       |        220         | 
-|   4                |     100%      |        60          |
-
-Customers with only 1 product are the largest churn group (1,409 customers).
-
-**Caution**
-
-The dataset shows a 100% churn rate for customers with four products. On investigation, this segment has a very small sample size, and all instances are labelled as churned. This appears to be a dataset artifact rather than a realistic banking behavior, so insights from this segment should be interpreted with caution. Strategic focus should remain on 1–3 product customers, where both volume and churn impact are material.
-
-### Churn by Age Group
-| Age Group       | Churn Rate    | No. of Churned                        |
-|-----------------|-------------- |---------------------------------------|
-|   45-54         |     48%       |  Extremely high churn risk            |
-|   55+           |     39%       |  Aging segment disengaging            |
-|   35-44         |     18%       |  Moderate risk                        | 
-|   <25           |     9%        |  Lower churn, oppourtunity to grow    |
-|   25-34         |     8%        |   Best-performing segment             |
-
-**Insight:** Mid-to-senior age customers are churning at 2-5x the rate of younger ones.
-
-### Churn by Credit Score Band
-| Credit Score Band       |  Churn Rate    |
-|-------------------------|----------------|
-|  Poor (<580)            |     22%        |
-|  Fair (580-669)         |     21%        |
-|  very Good (740-799)    |     21%        |
-|  Excellent (800+)       |     20%        |
-|  Good (670-739)         |     19%        |
-
-**Insight:**
-
-Churn is fairly consistent across credit bands, and no strong correlation between score and churn.
-
-### Churn Balance by Risk Tier
-
-| Risk Tier       |  Churned Balance  |
-|-----------------|-------------------|
-|  Medium         |     $106M         |
-|  low            |     $79.4M        |
-|  High           |     $0.2M         |
-
-**Insight:**
-- My analysis showed that customers at the highest churn risk tend to have lower balances, meaning they contribute less to direct financial loss.
-- The majority of revenue loss actually comes from medium-risk, higher-value customers.
-- This highlights the need for differentiated retention strategies.
-
-
----
-
-
-## Financial Performance Summary
-
-<p align="right">
-  <img src="assets/Summary.png" width="1000" />
-</p>
-
-### KPIs Overview
-- Total Customers: 10,000
-- Churn Rate: 20.37% (2,037 customers churned)
-- Average Retain Balance: $72,745
-- Average Churn Balance: $91,109
-- Total Balance: $765M
-- Geographies: France, Germany, Spain
-
-**Key Insights**
-**1. High Churn Rate**
-- A churn rate of 20.37% is relatively high, indicating a potential issue in customer retention.
-- The average balance of churned customers ($91,109) is higher than that of retained customers ($72,745), suggesting that higher-value customers are churning.
-
-**2. Geographical Distribution**
-- Majority of customers are from:
-  - France: 5,014 (50.1%)
-  - Germany: 2,509 (25.1%)
-  - Spain: 2,477 (24.8%)
-
-However, a filtered drill-down shows:
-- In Germany, customers under 25 years old, with medium churn risk, are notably present (96 customers).
-- Within this filtered segment, gender is almost equally split: 41 males, 36 females.
-
-**3. Age Group Analysis**
-- Most customers fall into 35-44 and 25-34 age groups:
-  - 35-44: 3,278 retained
-  - 25-34: 2,972 retained
-
-- However, <25 age group has the lowest retention (417) and churn (40) proportionally.
-- Suggests younger customers are more likely to churn.
-
-**4. Churn Risk Tiers**
-- Within the Germany/<25/Medium Risk segment:
-  - Most are in Medium Risk tier (77 out of 96).
-  - Low (14) and High (5) are negligible.
 
 
 ---
@@ -515,46 +492,113 @@ However, a filtered drill-down shows:
 
 ## 🎯 Strategic Recommendations
 
-A. **Customer Retention Strategy**
+**A . Launch a customer retention program for VIP, Loyal, and at-risk customers - highest priority**
 
-1. **Prioritize high-balance churners:**
-   - Since churned customers have higher average balances, create retention campaigns targeting high-value customers.
-   - Consider proactive outreach, loyalty rewards, or personalized financial advice.
+i. Create VIP tier rewards (free delivery, exclusive offers, priority support)
 
-2. **Develop targeted interventions for medium-risk segments:**
-   - The largest risk category is medium. Launch "nudge" campaigns for this group to reduce the risk of escalation.
-   - Examples: financial planning tools, regular check-ins, or premium service trials.
+ii. Send win-back campaigns to churned users within 14 days
 
-B. **Segment-Specific Strategies**
+iii. Trigger reactivation discounts for customers inactive beyond 90 days
 
-1. **Adults (45-54 age group) and Seniors (55+ age group)**
-   - High churn and low retention indicate dissatisfaction or low engagement.
-   - Actions:
-     - Launch adults-focused products (e.g., retirement planning consultations, health savings-linked accounts, insurance bundles (health + life + critical illness)).
-     - Improve digital engagement (mobile banking, in-app "easy mode" interface).
+iv. Build automated personalized offers based on order history
 
-2. **Germany Segment**
-   - Customers <25 in Germany are showing churn behavior.
-   - Consider localized offers and customer engagement campaigns in Germany targeting this age group.
+**B. Scale bulk ordering segment**
 
-C. **Geographic Focus**
-   - France has 50% of total customers – leverage this for upselling and cross-selling.
-   - Spain and Germany: Evaluate marketing ROI and retention performance to determine if higher engagement is needed.
+i. Create dedicated B2B ordering plans
 
-D. **Improve Churn Prediction & Early Warning**
-   - Use the existing churn risk tiers to build a predictive churn model based on:
-     - Age
-     - Geography
-     - Gender
-     - Credit Score
-     - Product usage
-     - Balance trends
-   - Focus on medium-risk segments and monitor any increase in early warning indicators.
+ii. Target offices, institutions, and events
 
-E. **Financial Impact Monitoring**
-   - Given that high churners have higher balances:
-     - Quantify potential revenue loss from churn and build a business case for investing in retention programs.
-     - Use dashboards to track CLV (Customer Lifetime Value) over time by segment.
+iii. Assign account management for large customers
+
+iv. Offer scheduled recurring meal deliveries
+
+**3. Expand electric scooter operations aggressively**
+
+i. Increase scooter fleet in the highest-performing city 
+
+ii. Recruit scooter-focused couriers 
+
+iii. Introduce charging partnerships 
+
+iv. Prioritize scooters during peak demand routing 
+
+**4. Replicate Q4 growth strategy throughout the year**
+
+i. Analyze what drove the November–December spikes
+
+ii. Repeat campaigns in weaker months (Feb, Sept, Oct)
+
+iii. Build quarterly seasonal promotions
+
+**5. Improve breakfast and underperforming categories**
+
+i. Introduce breakfast bundles
+
+ii. Early delivery discounts
+
+iii. Workplace breakfast promotions
+
+iv. Time-based push notifications
+
+**6. Strengthen referral acquisition immediately**
+
+  i. Launch refer-a-friend credits
+
+  ii. Incentivize first referral order
+
+  iii. Reward repeat referrals
+
+  iv. Add referral prompts post-delivery
+
+
+---
+
+## 90-Day Implementation Plan
+**Month 1**
+1. Launch VIP retention campaigns
+2. Start churn reactivation
+3. Analyze top bulk customers
+4. Increase scooter courier allocation
+
+**Month 2**
+1. Launch B2B bulk sales initiative
+2. Introduce referral program
+3. Improve breakfast promotions
+4. Train low-performing couriers
+
+**Month 3**
+1. Automate RFM campaigns
+2. Scale seasonal promotions
+3. Expand to underperforming cities/channels
+4. Track ROI by customer segment
+
+
+
+
+
+---
+
+## Conclusion
+
+This project analyzed Swoop Food Delivery Service using three key dashboards. Together, these dashboards provide a comprehensive view of **sales performance, operational efficiency**, and **customer behavior** to support strategic decision-making.
+
+- The analysis showed that the business generated strong revenue of approximately **$2.37M** from **over 28,000 orders**, with **bulk orders and dinner sales** contributing the **highest share of revenue.**
+- Customer insights revealed that **a small group of high-value customer accounts for a significant portion of sales**, emphasizing the importance of retention and loyalty programs. 
+- Operationally, **electric scooters** emerged as the **most efficient delivery method**, supporting faster deliveries and lower costs.
+- **Organic acquisition** proved to be the **strongest customer growth channel**.
+
+Overall, the project highlights that Swoop Food Delivery Service has;
+- a strong foundation for growth, supported by efficient logistics
+- a loyal customer base
+- clear market demand. 
+
+The findings suggest that **immediate focus on customer retention, bulk order expansion, and operational optimization** will help **improve profitability and long-term scalability**.
+
+This project demonstrates how data analytics can transform business data into actionable insights, helping stakeholders identify opportunities, address risks, and make informed decisions to drive business growth.
+
+
+--- 
+
 
 ### Next Steps
 
@@ -571,46 +615,9 @@ E. **Financial Impact Monitoring**
 
 ---
 
-🔗 [View the Live Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiZWUwNzhjNTMtYjkwOS00NTc5LTlhODEtNWM2ZTIwNjJjMjJkIiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9&pageName=97e7837545ca68b681c0)
-
-
-## Executive Summary
-
-This Power BI analytics solution provides Unity Bank with a comprehensive, data-driven view of its customer base, financial exposure, and churn risk. By leveraging the full capabilities of Power BI from data transformation to advanced DAX measures and interactive dashboards, the project delivers actionable insights that directly support customer retention, revenue protection, and risk mitigation efforts.
-
-This analysis reveals that Unity Bank is facing a critical customer churn challenge, with over 20% of customers exiting and a disproportionately high churn among medium-risk and high-balance clients. Inactivity, low product penetration, and regional concentration (notably in Germany) emerge as leading indicators of churn. Additionally, the bank’s current churn risk tiering underestimates the risk posed by medium-tier customers, who account for the largest share of churned balance value.
-
-The dashboards empower stakeholders to explore these dynamics through real-time, filterable views segmented by geography, age, credit score, product usage, and churn risk. This enables business leaders to move from reactive churn tracking to proactive customer engagement and risk prevention.
-
-## Executive Recommendation
-
-Unity Bank should implement a **targeted, data-driven customer retention strategy** focused on the following priorities:
-
-1. **Prioritize Medium-Risk and High-Balance Customers**  
-   - Proactively monitor and engage medium-risk customers, especially those with high balances, using early-warning signals from the dashboard.
-
-2. **Reactivate Inactive Customers**  
-   - Launch re-engagement campaigns and personalized offers for inactive users, who represent a large portion of churned customers.
-
-3. **Increase Product Penetration to Reduce Churn**  
-   - Design bundled product offerings and personalized cross-sell strategies to encourage customers with only one product to deepen their relationship with the bank.
-
-4. **Localize Retention Strategies by Region**  
-   - Tailor retention and service strategies for high-churn regions like Germany, where customer behavior significantly deviates from the rest of the portfolio.
-
-5. **Refine Risk Scoring Models**  
-   - Update churn risk models to reflect actual behavioral drivers found in the data, such as inactivity, single product ownership, and regional trends, to improve prediction accuracy.
-
-By implementing these actions, Unity Bank can significantly reduce churn, improve customer lifetime value, and drive sustainable revenue growth through smarter, insight-led decisions.
-
-
----
-
 
 ## Disclaimer
 This project is for portfolio and educational display only.
-
-No content may be reused without permission.
 
 
 ---
