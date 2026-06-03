@@ -1,6 +1,6 @@
 # Swoop Food Delivery Performance Analysis: Revenue, Customer Segmentation & Operational Insights
 <p align="center">
-  <img src="assets/coover pg.png" width="1000" />
+  <img src="assets/Cover pg.png" width="1000" />
 </p>
 
 ---
