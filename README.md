@@ -344,7 +344,7 @@ Track:
 - Courier idle time
 - Rating trends
 <p align="center">
-  <img src="assets/top 10%.png" width="1000" />
+  <img src="assets/top10courier.png" width="1000" />
 </p>
 
 
